@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        layout="@layout/tool_bar"></include>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/login"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="255dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/register"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="252dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/contLogin"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister"
+        app:layout_constraintVertical_bias="0.116" />
+
+
+</android.support.constraint.ConstraintLayout>

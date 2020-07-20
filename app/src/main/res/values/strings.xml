@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name">Go-On Grocery</string>
+    <string name="image">GrocerryShoppingImage</string>
+    <string name="txtTitle">Go-On Shopping</string>
+    <string name="txtBrowse">Browse</string>
+    <string name="settings_name">Settings</string>
+    <string name="cart"> Cart </string>
+    <string name="location"> Change Location</string>
+    <string name="feedback"> Feedback </string>
+    <string name="login"> Login </string>
+    <string name="register"> Register </string>
+    <string name="contLogin"> Continue without Login </string>
+    <string name="orderHistory"> Order History </string>
+    <string name="etEmail">Enter Email</string>
+    <string name="etPassword">Enter Password</string>
+    <string name="btnLoginUser">Login</string>
+    <string name="btnInvite">Invite Friends</string>
+    <string name="etFriendEmail">Enter Email</string>
+    <string name="btnInviteFriend">Invite</string>
+    <string name="etFName">First Name</string>
+    <string name="etLName">Last Name</string>
+    <string name="edUserEmail">Email</string>
+    <string name="etUserPswd">Password</string>
+    <string name="etPhone">Contact Number</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnInFriend">Invite Friends</string>
+    <string name="btnZip">Search</string>
+    <string name="btnPayment">Calculate Total</string>
+    <string name="radioDelivery">Delivery</string>
+    <string name="radioPickup">PickUp</string>
+    <string name="txtTotal">Total Amount</string>
+    <string name="btnPlaceOrder">Place Order</string>
+    <string name="spZip"> Zip Code</string>
+    <string name="imvwstore">Image of stores</string>
+    <string name="txtimage"> name of stores</string>
+    <string name="etOldPswd"> Enter Old Password</string>
+    <string name="etNewPswd"> Enter New Password</string>
+    <string name="btnConfirmPswd"> Confirm Password</string>
+    <string name="btnChangePswd"> Change Password</string>
+    <string name="chHistory">Clear History </string>
+    <string name="chNotifications">Allow Notifications </string>
+    <string name="chShoppingList"> Clear Shopping List History</string>
+    <string name="etFeedback">Enter your Feedback here</string>
+    <string name="btnFeedback"> Submit </string>
+    <string name="etEmailFdbck">Enter your email</string>
+
+
+    <string-array name="spZipcode">
+        <item>Zip Code</item>
+        <item>V5H 4N2</item>
+        <item>V3R 7C1</item>
+        <item>V3T 2W1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag"
+    tools:background="@drawable/bag"
+    tools:context=".LocationSearch">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"></include>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="108dp"
+        android:background="@color/colorPrimaryDark"
+        android:dropDownSelector="@color/colorAccent"
+        android:entries="@array/spZipcode"
+        android:pointerIcon="arrow"
+        android:prompt="@string/spZip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar"
+        tools:dropDownSelector="@color/self_made"
+        tools:outlineProvider="background"
+        tools:style="@style/Platform.Widget.AppCompat.Spinner" />
+
+    <Button
+        android:id="@+id/btnZip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btnZip"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+</android.support.constraint.ConstraintLayout>

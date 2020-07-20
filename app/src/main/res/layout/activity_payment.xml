@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"></include>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="276dp"
+        android:layout_height="219dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar">
+
+        <RadioButton
+            android:id="@+id/rdDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioDelivery"
+            android:textColor="@color/colorAccent" />
+
+        <RadioButton
+            android:id="@+id/rdPickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioPickup"
+            android:textColor="@color/colorAccent" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPayment"
+        android:layout_width="161dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="92dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btnPayment"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+</android.support.constraint.ConstraintLayout>

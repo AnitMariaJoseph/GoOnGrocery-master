@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag"
+    tools:context=".Feedback">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"></include>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="233dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="@string/etEmailFdbck"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/etFeedback"
+        android:layout_width="233dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="@string/etFeedback"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnFeedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btnFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="240dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btnFeedback"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
